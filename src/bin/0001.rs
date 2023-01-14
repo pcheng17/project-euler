@@ -3,7 +3,7 @@ fn solve(n: u32) -> u32 {
 }
 
 fn main() {
-    project_euler::run(solve, 1000);
+    utils::run(solve, 1000);
 }
 
 #[cfg(test)]
