@@ -16,14 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: cargo check
-        run: cargo check --verbose
+        run: cargo check
   test:
     runs-on: ubuntu-latest
     name: Test
     steps:
       - uses: actions/checkout@v3
       - name: cargo test
-        run: cargo test --verbose
+        run: cargo test
   clippy:
     runs-on: ubuntu-latest
     name: Clippy
