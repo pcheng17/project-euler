@@ -10,3 +10,4 @@ name = "utils"
 path = "src/utils.rs"
 
 [dependencies]
+num = "0.4.0"
